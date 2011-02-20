@@ -1,0 +1,24 @@
+JeuxVideo.fr XBMC Plugin
+================================
+
+Grab latest 30 vids in each categories from JeuxVideo.fr a french video games news site. (http://www.jeuxvideo.fr)
+
+Installation
+------------
+This plugin is hosted on https://github.com/sebcbi1/plugin.video.jeuxvideo.fr .
+
+* Clone this to your XBMC addons directory ( git clone git://github.com/sebcbi1/plugin.video.jeuxvideo.fr.git ) 
+  
+  or 
+  
+  extract the zip file ( https://github.com/sebcbi1/plugin.video.jeuxvideo.fr/zipball/master ).
+
+* Start XBMC and browse to Videos -> Video Addons.
+
+* Plugin configuration: video quality - SD/HQ
+
+Contributing
+------------
+
+Suggestions? It's broken ? Write me at http://github.com/sebcbi1 .
+

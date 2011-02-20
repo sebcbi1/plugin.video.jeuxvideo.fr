@@ -1,0 +1,19 @@
+<?xml version="1.0.1" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.jeuxvideo.fr"
+       name="JeuxVideo.fr"
+       version="1.0.0"
+       provider-name="sebcbi1">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="fr">JeuxVideo.fr</summary>
+    <summary lang="en">JeuxVideo.fr</summary>
+    <description lang="fr">JeuxVideo.fr : on est là pour jouer. Les 30 dernières vidéos de chaque catégorie.</description>
+    <description lang="en">JeuxVideo.fr : French video games news. Latest 30 vids in each categories</description>
+  </extension>
+</addon>
