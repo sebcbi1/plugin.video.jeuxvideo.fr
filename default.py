@@ -54,7 +54,8 @@ def getClip(url):
 
 	item = soup.find('item')
 	title = item.title.contents[0].encode('utf-8').strip()
-	descr = item.description.contents[0].encode('utf-8').strip()
+	try: descr = item.description.contents[0].encode('utf-8').strip()
+	except: descr = ''
 	mp4 = item.url_video_sd.contents[0].strip()
 	if __settings__.getSetting('hq') == 'true':
 		try: mp4 = item.url_video_hq.contents[0].strip()
